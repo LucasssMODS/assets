@@ -29996,7 +29996,8 @@ a.icon:hover {
     margin-bottom: 1.5rem;
     width: 100%;
     border: 1px solid #dbe2eb;
-    box-shadow: 0 6px 8px rgba(4,4,7,.1);
+    -webkit-box-shadow: -5px 0px 11px -4px rgba(5,255,220,0.75), 5px 0px 11px -4px rgba(211,3,255,0.75), 5px -3px 11px -4px rgba(0,248,255,0.75), 5px 5px 11px -4px rgba(204,5,255,0.75); 
+box-shadow: -5px 0px 11px -4px rgba(5,255,220,0.75), 5px 0px 11px -4px rgba(211,3,255,0.75), 5px -3px 11px -4px rgba(0,248,255,0.75), 5px 5px 11px -4px rgba(204,5,255,0.75);
     border-radius: 8px
 }
 
