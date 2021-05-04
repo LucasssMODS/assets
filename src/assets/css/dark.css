@@ -1,5 +1,5 @@
 .dark-mode a {
-    color: #d5dae2
+    color: #fff
 }
 
 .dark-mode .nav-sidebar li ul {
@@ -7,7 +7,7 @@
 }
 
 .dark-mode #back-to-top:hover {
-    background: #272d47
+    background: #192032
 }
 
 body.dark-mode {
@@ -931,8 +931,8 @@ body.dark-mode {
 }
 
 .dark-mode .card {
-    background: #272d47;
-    border: 1px solid rgba(255,255,255,.02)
+    background: #00000094;
+    border: 2px  rgba(0, 204, 255, 0.685)
 }
 
 .dark-mode .card::after {
@@ -945,12 +945,7 @@ body.dark-mode {
 }
 
 .dark-mode .card-header {
-    border-bottom: 1px solid rgba(255,255,255,.04)
-}
-
-.dark-mode .card-footer {
-    background-color: rgba(0,0,0,.03);
-    border-top: 1px solid rgba(255,255,255,.04)
+    border-bottom: 1px solid rgba(255, 255, 255, 0)
 }
 
 .dark-mode .messenger-box .avatar .send-time {
@@ -1984,10 +1979,11 @@ body.dark-mode {
 .dark-mode .text-body {
     color: #c4c9d6!important
 }
-
 .dark-mode .text-muted {
-    color: #6e7289!important
+    color: #fff;
+    text-align: center;
 }
+
 
 .dark-mode blockquote {
     color: #d5dae2;
@@ -2032,7 +2028,7 @@ body.dark-mode {
 }
 
 .dark-mode .header {
-    background: #272d47;
+    background: #192032;
     border-bottom: 1px solid rgba(255,255,255,.04)
 }
 
@@ -5506,13 +5502,13 @@ body.dark-mode {
 }
 
 .dark-mode .app-sidebar {
-    background: #272d47!important;
+    background: #192032!important;
     border-right: 1px solid rgba(255,255,255,.04);
     box-shadow: 0 8px 14.72px 1.28px rgba(4,4,7,.1)
 }
 
 .dark-mode .app-sidebar__logo {
-    background: #272d47;
+    background: #192032;
     border-right: 1px solid rgba(255,255,255,.04);
     border-bottom: 1px solid rgba(255,255,255,.04)
 }
@@ -5522,7 +5518,7 @@ body.dark-mode {
 }
 
 .dark-mode .app-sidebar__user,.dark-mode.sidebar-mini.sidenav-toggled.sidenav-toggled1 .app-sidebar .app-sidebar__user {
-    border-bottom: 1px solid rgba(255,255,255,.04)
+    border-bottom: 1px solid transparent
 }
 
 .dark-mode .icon-dropshadow {
@@ -5534,8 +5530,9 @@ body.dark-mode {
 }
 
 .dark-mode .sidebar-navs a,.dark-mode .card-options a.option-dots,.dark-mode .app-sidebar__toggle .header-icon,.dark-mode .nav-link.icon .header-icon,.dark-mode .side-menu .side-menu__icon,.dark-mode.sidebar-mini.sidenav-toggled.sidenav-toggled1 .app-sidebar .side-menu__icon,.dark-mode .navsearch svg {
-    background: #2f3655;
-    box-shadow: 0 2px 3px rgba(4,4,7,.1);
+    background: #17202A;
+    -webkit-box-shadow: -5px 0px 11px -4px rgba(5,255,220,0.75), 5px 0px 11px -4px rgba(211,3,255,0.75), 5px -3px 11px -4px rgba(0,248,255,0.75), 5px 5px 11px -4px rgba(204,5,255,0.75);
+    box-shadow: -5px 0px 11px -4px rgba(5,255,220,0.75), 5px 0px 11px -4px rgba(211,3,255,0.75), 5px -3px 11px -4px rgba(0,248,255,0.75), 5px 5px 11px -4px rgba(204,5,255,0.75);
     border: 1px solid rgba(255,255,255,.04)
 }
 
@@ -5548,7 +5545,7 @@ body.dark-mode {
 }
 
 .dark-mode .side-menu__item.active,.dark-mode .side-menu__item:hover,.dark-mode .side-menu__item:focus {
-    background: #20223c;
+    background: #313D5D;
     color: #d5dae2
 }
 
@@ -5562,8 +5559,8 @@ body.dark-mode {
 }
 
 .dark-mode .app-sidebar__user .user-pic img {
-    box-shadow: 0 0 0 4px #4a4d70;
-    border: 3px solid #20223c
+    -webkit-box-shadow: -5px 0px 11px -4px rgba(5,255,220,0.75), 5px 0px 11px -4px rgba(211,3,255,0.75), 5px -3px 11px -4px rgba(0,248,255,0.75), 5px 5px 11px -4px rgba(204,5,255,0.75); 
+box-shadow: -5px 0px 11px -4px rgba(5,255,220,0.75), 5px 0px 11px -4px rgba(211,3,255,0.75), 5px -3px 11px -4px rgba(0,248,255,0.75), 5px 5px 11px -4px rgba(204,5,255,0.75);
 }
 
 .dark-mode .latest-timeline ul.timeline:before {

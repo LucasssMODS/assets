@@ -19264,8 +19264,8 @@ article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section {
 
 body {
     margin: 0;
-    font-family: roboto,sans-serif;
-    font-size: 13px;
+    font-family: Poppins,sans-serif;
+    font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
     color: #1a1630;
@@ -28089,9 +28089,33 @@ a.text-dark:hover,a.text-dark:focus {
     color: #495057!important
 }
 
-.text-muted {
-    color: #728096!important
+.clock {
+    color: #fff;
+    animation: colorRotate 6s linear 0s infinite;
 }
+
+.text-muted {
+    color: #fff;
+    font-family: monospace;
+    animation: colorRotate 6s linear 0s infinite;
+}
+@keyframes colorRotate {
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #ff3399;
+    }
+    100% {
+      color: #6666ff;
+    }
+  }
 
 .icon-muted {
     color: #e2e2e9!important
@@ -29997,7 +30021,7 @@ a.icon:hover {
     width: 100%;
     border: 1px solid #dbe2eb;
     -webkit-box-shadow: -5px 0px 11px -4px rgba(5,255,220,0.75), 5px 0px 11px -4px rgba(211,3,255,0.75), 5px -3px 11px -4px rgba(0,248,255,0.75), 5px 5px 11px -4px rgba(204,5,255,0.75); 
-box-shadow: -5px 0px 11px -4px rgba(5,255,220,0.75), 5px 0px 11px -4px rgba(211,3,255,0.75), 5px -3px 11px -4px rgba(0,248,255,0.75), 5px 5px 11px -4px rgba(204,5,255,0.75);
+    box-shadow: -5px 0px 11px -4px rgba(5,255,220,0.75), 5px 0px 11px -4px rgba(211,3,255,0.75), 5px -3px 11px -4px rgba(0,248,255,0.75), 5px 5px 11px -4px rgba(204,5,255,0.75);
     border-radius: 8px
 }
 
@@ -30313,8 +30337,9 @@ box-shadow: -5px 0px 11px -4px rgba(5,255,220,0.75), 5px 0px 11px -4px rgba(211,
 
 .card-title {
     line-height: 1.2;
-    text-transform: capitalize;
+    text-transform: initial;
     font-weight: 700;
+    text-align: center;
     letter-spacing: .05rem;
     font-size: 15px
 }
@@ -30327,7 +30352,9 @@ box-shadow: -5px 0px 11px -4px rgba(5,255,220,0.75), 5px 0px 11px -4px rgba(211,
 }
 
 .card-title a {
-    color: inherit
+    color: inherit;
+    text-align: center;
+    
 }
 
 .card-title:only-child {
